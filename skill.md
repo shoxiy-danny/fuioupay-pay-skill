@@ -1,3 +1,8 @@
+---
+name: fuioupay-pay-skill
+description: 富友支付接口对接指南。包含下单(3.2)、条码支付(3.1)、订单查询(3.4)、退款(3.6)等完整交易流程。涵盖中文编码、签名算法、XML构建、异步轮询、回调处理等核心问题解决方案。
+---
+
 # 富友支付对接 Skill
 
 帮助AI智能体快速对接富友支付系统的交易接口。
@@ -6,6 +11,7 @@
 
 ### 核心文档
 - [概述与签名说明](docs/overview.md)
+- [错误码对照表](docs/error-codes.md)
 - [快速开始](guide/getting-started.md)
 - [签名详解](guide/signature.md)
 - [常见问题与避坑](guide/troubleshooting.md)
@@ -78,3 +84,16 @@ const result = await payClient.createOrder({
 3. **条码支付异步**: 需要轮询查询，建议5秒后开始，间隔5秒以上
 4. **GBK编码**: 必须使用iconv-lite等库处理，不要用默认编码
 5. **URL双重encode**: 中文必须进行两次GBK URL编码
+
+## 对接检查清单
+
+- [ ] 私钥格式为PKCS#8（`-----BEGIN PRIVATE KEY-----`）
+- [ ] 签名算法使用RSA-MD5
+- [ ] 签名原文中空字段保留为`field=`
+- [ ] XML中所有非reserved字段都出现，空字段为`<field></field>`
+- [ ] 中文字段进行两次GBK URL编码
+- [ ] 条码支付时判断`result_code`，非SUCCESS需进入轮询
+- [ ] 回调验签时排除reserved开头字段
+- [ ] 条码支付服务端等待最多60秒
+- [ ] 主扫前端轮询：下单后3秒开始，每5秒一次
+- [ ] 金额单位使用分，不是元

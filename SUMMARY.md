@@ -5,6 +5,7 @@
 
 ## 概述与签名
 - [docs/overview.md](docs/overview.md) - 完整概述、术语定义、签名说明、编码规则
+- [docs/error-codes.md](docs/error-codes.md) - 错误码对照表
 
 ## 接口文档
 
@@ -36,6 +37,7 @@
 
 ## 代码示例
 - [examples/nodejs.md](examples/nodejs.md) - Node.js完整示例
+- [examples/frontend.md](examples/frontend.md) - 前端轮询指南
 
 ## 术语表
 
