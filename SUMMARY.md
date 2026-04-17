@@ -24,9 +24,9 @@
 ### 辅助接口
 - [docs/3.11-auth-code.md](docs/3.11-auth-code.md) - 授权码查询openid
 - [docs/3.12-servicer-openid.md](docs/3.12-servicer-openid.md) - 服务商模式获取openid
-- [docs/3.13-delegate-pay.md](docs/3.13-delegate-pay.md) - 微信委托代扣
-- [docs/3.14-delegate-query.md](docs/3.14-delegate-query.md) - 微信委托代扣查询
-- [docs/3.15-fee-push.md](docs/3.15-fee-push.md) - 交易手续费推送
+- [docs/3.13-delegate-pay.md](docs/3.13-delegate-pay.md) - 微信委托代扣 ✅
+- [docs/3.14-delegate-query.md](docs/3.14-delegate-query.md) - 微信委托代扣查询 ✅
+- [docs/3.15-fee-push.md](docs/3.15-fee-push.md) - 交易手续费推送 ✅
 
 ## 对接指南
 - [guide/getting-started.md](guide/getting-started.md) - 快速开始
