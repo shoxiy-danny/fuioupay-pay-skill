@@ -1,6 +1,8 @@
 ---
 name: fuioupay-pay-skill
+display_name: 富友支付对接 Skill
 description: 富友支付接口对接指南。包含下单(3.2)、条码支付(3.1)、订单查询(3.4)、退款(3.6)等完整交易流程。涵盖中文编码、签名算法、XML构建、异步轮询、回调处理等核心问题解决方案。
+version: 1.0.0
 ---
 
 # 富友支付对接 Skill
