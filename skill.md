@@ -28,6 +28,7 @@ description: 富友支付接口对接指南。包含下单(3.2)、条码支付(3
 - [3.9 退款查询](docs/3.9-refund-query.md) - 查询退款状态
 - [3.10 历史订单查询](docs/3.10-history-query.md) - 查询3天前订单
 - [3.11 授权码查询openid](docs/3.11-auth-code.md) - 获取用户openid
+- [3.12 服务商模式获取openid](docs/3.12-servicer-openid.md) - 服务商模式获取子商户用户openid
 
 ### 代码示例
 - [Node.js示例](examples/nodejs.md)
