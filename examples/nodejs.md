@@ -1,3 +1,16 @@
+---
+name: fuioupay-examples-nodejs
+description: "富友支付接口的完整Node.js客户端实现，包括签名、编码、请求和验签全流程。"
+trigger:
+  - Node.js
+  - nodejs
+  - SDK
+  - 示例
+  - javascript
+  - axios
+  - 客户端
+---
+
 # 富友支付 Node.js SDK 示例
 
 ## 安装依赖

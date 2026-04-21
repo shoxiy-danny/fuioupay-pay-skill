@@ -1,3 +1,15 @@
+---
+name: fuioupay-guide-signature
+description: "富友支付接口的RSA签名算法详解，包括签名原文构建、Node.js实现和常见错误。"
+trigger:
+  - 签名
+  - signature
+  - RSA
+  - MD5WithRSA
+  - buildSignContent
+  - sign
+---
+
 # 签名详解
 
 ## 签名算法

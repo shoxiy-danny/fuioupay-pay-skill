@@ -1,3 +1,16 @@
+---
+name: fuioupay-guide-troubleshooting
+description: "富友支付对接过程中的常见问题与解决方案，包括验签、金额、退款等高频坑点。"
+trigger:
+  - 问题
+  - 避坑
+  - troubleshooting
+  - FAQ
+  - 常见问题
+  - 验签失败
+  - 金额错误
+---
+
 # 常见问题与避坑指南
 
 ## 验签相关

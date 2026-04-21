@@ -1,3 +1,16 @@
+---
+name: fuioupay-examples-frontend
+description: "富友支付主扫（统一下单）的前端轮询实现指南，包括轮询间隔和超时处理。"
+trigger:
+  - 前端
+  - 轮询
+  - polling
+  - 前端轮询
+  - 支付轮询
+  - jsapi
+  - poll
+---
+
 # 前端轮询指南
 
 ## 主扫支付前端轮询

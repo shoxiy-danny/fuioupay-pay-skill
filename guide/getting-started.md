@@ -1,3 +1,15 @@
+---
+name: fuioupay-guide-getting-started
+description: "富友支付接口对接的快速入门指南，包括环境准备、依赖安装和第一个请求示例。"
+trigger:
+  - 快速开始
+  - 入门
+  - getting started
+  - 安装
+  - 依赖
+  - npm
+---
+
 # 快速开始
 
 ## 环境准备

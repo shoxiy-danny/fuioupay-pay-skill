@@ -1,3 +1,17 @@
+---
+name: fuioupay-overview
+description: "富友支付概述与术语定义，包括主扫/被扫/JSAPI/条码支付等概念解释。"
+trigger:
+  - 概述
+  - overview
+  - 术语
+  - 主扫
+  - 被扫
+  - 条码支付
+  - JSAPI
+  - 名词解释
+---
+
 # 富友支付 - 概述与签名说明
 
 ## 术语定义

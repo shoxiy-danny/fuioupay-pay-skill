@@ -1,3 +1,17 @@
+---
+name: fuioupay-guide-encoding
+description: "富友支付接口的GBK编码要求和URL双重编码规则，含Node.js实现示例。"
+trigger:
+  - 编码
+  - GBK
+  - URL编码
+  - encode
+  - urlencode
+  - gbk
+  - iconv
+  - 两次encode
+---
+
 # 编码与URL编码详解
 
 ## 字符编码

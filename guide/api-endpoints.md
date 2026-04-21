@@ -1,3 +1,16 @@
+---
+name: fuioupay-guide-api-endpoints
+description: "富友支付所有接口的生产/测试环境地址汇总，包括各接口路径说明。"
+trigger:
+  - 接口地址
+  - endpoints
+  - 生产环境
+  - 测试环境
+  - URL
+  - 地址汇总
+  - 请求地址
+---
+
 # 接口地址汇总
 
 ## 生产环境

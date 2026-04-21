@@ -1,3 +1,16 @@
+---
+name: fuioupay-error-codes
+description: "富友支付错误码对照表，包括通用错误码、业务错误码及处理方式。"
+trigger:
+  - 错误码
+  - error code
+  - result_code
+  - 错误
+  - 000000
+  - 失败
+  - 报错
+---
+
 # 富友支付错误码对照表
 
 ## 通用错误码
